@@ -57,6 +57,8 @@ O token é utilizado para conseguir fazer as solicitações nos metodos que nece
  
  ### 💻 Metodos disponiveis
  (Lembre de sempre configurar o TOKEN conforme citado acima, para todos os metodo que for fazer algum tipo de requisição.)  
+ 
+ ###### Genero
  - GET: `https://localhost:5001/Genero`
  - POST: `https://localhost:5001/Genero`  
  O POST espera a seguinte entrada no body:  
@@ -77,6 +79,48 @@ O token é utilizado para conseguir fazer as solicitações nos metodos que nece
 }
 ```
 - DELETE: `https://localhost:5001/Genero/{id}`
+
+###### Filme
+ - GET: `https://localhost:5001/Filme`
+ - POST: `https://localhost:5001/Filme`  
+ O POST espera a seguinte entrada no body:  
+ ```
+{
+  "nome": "string",
+  "dataCriacao": "2021-07-01",
+  "ativo": true,
+  "generoId": 4
+}
+```
+- PUT: `https://localhost:5001/Filme/{id}`  
+```
+{
+  "id": 2,
+  "nome": "string",
+  "dataCriacao": "2021-06-30",
+  "ativo": false,
+  "generoId": 5
+}
+```
+- DELETE: `https://localhost:5001/Filme/{id}`
+- DELETE(VARIOS): `https://localhost:5001/Filme/Filme?id={ID}&id={ID}`
+
+###### Locação
+ - GET: `https://localhost:5001/Locacao`
+ - POST: `https://localhost:5001/Locacao`  
+ O POST espera a seguinte entrada no body:  
+ ```
+{
+	"Locacao":
+	 {
+		"CPF": "123.123.123-12",
+		"dataLocacao": "2021-07-01"
+		},
+		 "filmeId":[{idFIlme},{idFIlme}]
+}
+```
+ ### 🚀 Live
+ O acesso online deve ser feito igual instruido anteriormente, porém, no local do  `https://localhost:5001` usar  `https://igor2107012315.bateaquihost.com.br`
 <hr>
 
 ### 📱 Contato / Redes Sociais 

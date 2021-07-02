@@ -9,7 +9,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/) - Backend
 - [.NET CORE 5](https://docs.microsoft.com/pt-br/aspnet/core/?view=aspnetcore-5.0) - Backend(Framework)
 - [JwtBearer](https://docs.microsoft.com/pt-br/dotnet/api/microsoft.aspnetcore.authentication.jwtbearer?view=aspnetcore-5.0) - Autenticação/Token
-- [Etity Framework](https://docs.microsoft.com/pt-br/ef/) - Banco de dados(Framework/ORM)
+- [Entity Framework](https://docs.microsoft.com/pt-br/ef/) - Banco de dados(Framework/ORM)
 - [SQLServer](https://docs.microsoft.com/pt-br/sql/sql-server/?view=sql-server-ver15) - Banco de dados
 
 ## 🖱 Instalação 

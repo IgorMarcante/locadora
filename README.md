@@ -59,8 +59,8 @@ O token é utilizado para conseguir fazer as solicitações nos metodos que nece
  (Lembre de sempre configurar o TOKEN conforme citado acima, para todos os metodo que for fazer algum tipo de requisição.)  
  
  ###### Genero
- - GET: `https://localhost:5001/Genero`
- - POST: `https://localhost:5001/Genero`  
+ - **GET:** `https://localhost:5001/Genero`
+ - **POST:** `https://localhost:5001/Genero`  
  O POST espera a seguinte entrada no body:  
  ```
   {
@@ -69,7 +69,7 @@ O token é utilizado para conseguir fazer as solicitações nos metodos que nece
   "ativo": true
 }
 ```
-- PUT: `https://localhost:5001/Genero/{id}`  
+- **PUT:** `https://localhost:5001/Genero/{id}`  
 ```
 {
   "id": 0,
@@ -78,11 +78,11 @@ O token é utilizado para conseguir fazer as solicitações nos metodos que nece
   "ativo": true
 }
 ```
-- DELETE: `https://localhost:5001/Genero/{id}`
+- **DELETE:** `https://localhost:5001/Genero/{id}`
 
 ###### Filme
- - GET: `https://localhost:5001/Filme`
- - POST: `https://localhost:5001/Filme`  
+ - **GET:** `https://localhost:5001/Filme`
+ - **POST:** `https://localhost:5001/Filme`  
  O POST espera a seguinte entrada no body:  
  ```
 {
@@ -92,7 +92,7 @@ O token é utilizado para conseguir fazer as solicitações nos metodos que nece
   "generoId": 4
 }
 ```
-- PUT: `https://localhost:5001/Filme/{id}`  
+- **PUT:** `https://localhost:5001/Filme/{id}`  
 ```
 {
   "id": 2,
@@ -102,12 +102,12 @@ O token é utilizado para conseguir fazer as solicitações nos metodos que nece
   "generoId": 5
 }
 ```
-- DELETE: `https://localhost:5001/Filme/{id}`
-- DELETE(VARIOS): `https://localhost:5001/Filme/Filme?id={ID}&id={ID}`
+- **DELETE:** `https://localhost:5001/Filme/{id}`
+- **DELETE(VARIOS):** `https://localhost:5001/Filme/Filme?id={ID}&id={ID}`
 
 ###### Locação
- - GET: `https://localhost:5001/Locacao`
- - POST: `https://localhost:5001/Locacao`  
+ - **GET:** `https://localhost:5001/Locacao`
+ - **POST:** `https://localhost:5001/Locacao`  
  O POST espera a seguinte entrada no body:  
  ```
 {
@@ -119,8 +119,16 @@ O token é utilizado para conseguir fazer as solicitações nos metodos que nece
 		 "filmeId":[{idFIlme},{idFIlme}]
 }
 ```
- ### 🚀 Live
+ ### 🚀 Live - Online
  O acesso online deve ser feito igual instruido anteriormente, porém, no local do  `https://localhost:5001` usar  `https://igor2107012315.bateaquihost.com.br`
+###### Autenticação
+`https://igor2107012315.bateaquihost.com.br/Autenticacao/`
+###### Genero
+`https://igor2107012315.bateaquihost.com.br/Genero/`
+###### Filme
+`https://igor2107012315.bateaquihost.com.br/Filme/`
+###### Locacao
+`https://igor2107012315.bateaquihost.com.br/Locacao/`
 <hr>
 
 ### 📱 Contato / Redes Sociais 

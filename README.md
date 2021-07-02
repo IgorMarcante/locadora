@@ -122,7 +122,14 @@ O token é utilizado para conseguir fazer as solicitações nos metodos que nece
  ### 🚀 Live - Online
  O acesso online deve ser feito igual instruido anteriormente, porém, no local do  `https://localhost:5001` usar  `https://igor2107012315.bateaquihost.com.br`
 ###### Autenticação
-`https://igor2107012315.bateaquihost.com.br/Autenticacao/`
+`https://igor2107012315.bateaquihost.com.br/Autenticacao/`  
+Usuario e Senha padrão disponivel:
+ ```
+{
+	"Login": "admin",
+	"Senha": "123456"
+}
+```
 ###### Genero
 `https://igor2107012315.bateaquihost.com.br/Genero/`
 ###### Filme
